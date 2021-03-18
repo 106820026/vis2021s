@@ -45,6 +45,35 @@
 
   <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
   <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
-</svg>
 
+  <path d="M190 10 Q130 80 227 62 A130 120 0 0 1 195 120" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M2 125 L385 125 L385 385 L5 385 L 5 125" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M2 235 L110 235" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M280 235 L385 235" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M170 330 A20 20 0 0 0 215 330" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M143 385 A 200 190 0 0 0 128 445" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M143 385 125 420 95 448 A30 200 40 0 0 120 470" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M128 445 A90 50 155 0 0 155 495
+           A 120 50 155 0 0 130 445
+          " stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M160 485 225 485" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M227 460 A 20 40 20 0 0 260 480
+           A 20 40 20 0 0 227 460
+          " stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M245 385 A200 200 0 0 1 258 450" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M240 385 304 460
+           A40 20 40 0 1 280 485
+           L265 475
+          " stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M275 425 A130 200 0 0 1 385 430
+           A60 50 0 0 0 443 385
+          " stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M438 360 A50 21 120 0 0 470 374z" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M452 364 460 345" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M460 369 470 348" stroke-width="5" stroke="black" fill="none"></path>
+  <path d="M428 332 434 310" stroke-width="10" stroke="black" fill="none"></path>
+  <path d="M435 345 441 320" stroke-width="10" stroke="black" fill="none"></path>
+  <path d="M487 340 510 335" stroke-width="10" stroke="black" fill="none"></path>
+  <path d="M483 350 505 345" stroke-width="10" stroke="black" fill="none"></path>
+</svg>
     

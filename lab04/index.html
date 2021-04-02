@@ -102,13 +102,27 @@ https://www.oxxostudio.tw/articles/201501/svg-d3-13-csv.html
                         })
                         .text(function(d){return d;});
 
-                var pic1 = document.getElementsByClassName("pic1");
-                // pic1[0].append("img").attr("src", "./93.png")
-
-                
-
-                
+                    d3.selectAll(".pic1")
+                    .text("")
+                    .append("img")
+                    .attr({"src" : "./93.png",
+                           "width" : "70px",
+                           "height" : "70px"})
+                    
+                    d3.selectAll(".pic2")
+                    .text("")
+                    .append("img")
+                    .attr({"src" : "./92.png",
+                           "width" : "60px",
+                           "height" : "60px"})
             });
+
+            // d3.select(".pic1")
+            // .selectAll("img")
+            // .append("img")
+            // .attr("src", function(d){return "./92.png";})
+            // .attr("width",  function(i) { return 60; })
+            // .attr("height", function(i) { return 60; });
         </script>
     </body>
 </html>

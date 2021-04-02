@@ -15,12 +15,12 @@ function dataLoader(text,cb) {
                 
                 //把字串轉成number
                 if(/[0-9]+/.test(d[k])){
-                    t[k] = parseInt(d[k].replace(/(,|\s)+/g, ''))
+                    t[k] = parseFloat(d[k].replace(/(,|\s)+/g, ''))
                 }
                 //-符號代表為0
-                else if(d[k].replace(/^\s+|\s+$/g, '') == '-'){
-                    t[k] = 0
-                }
+                // else if(d[k].replace(/^\s+|\s+$/g, '') == '-'){
+                //     t[k] = 0
+                // }
                 //在本題中，因為有欄位是空的，空的欄位設置為0
                 else if(d[k].length == 0){
                     t[k] = 0

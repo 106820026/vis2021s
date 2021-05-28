@@ -9,7 +9,7 @@
         padding: 10px;
         margin: 5px;
         display: inline-block;
-        width: 20px;
+          width: 15px;
         height: 75px;
         background-color: cyan;
         vertical-align : bottom;
@@ -27,7 +27,7 @@
     <script src="./d3.v3.min.js"></script>
     <script type="text/javascript">
       // Your beautiful D3 code will go here
-      d3.text("data.csv", function(data){
+      d3.text("./data.csv", function(data){
         var parseCSV =  d3.csv.parseRows(data);
           d3.select("body")
             .selectAll("div")
